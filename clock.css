@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(208, 208, 208);
+    color: black;
+}
+.dark-theme{
+    background-color:black;
+    color: white;
+
+}
+.box{
+    background-color: black;
+    margin-top: 40%;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 15px rgba(240, 248, 255, 0.669);
+    color: white;
+}
+.box h3{
+    top: 300px;
+    left: 150px;
+}
+.row h1{
+    font-size: 200px;
+}
+#am{
+    height: 50px;
+    width: 100px;
+}
+button i{
+    color: white;
+}
