@@ -21,6 +21,8 @@ function showTime() {
         hour = hour < 10 ? "0" + hour : hour;
         min = min < 10 ? "0" + min : min;
         sec = sec < 10 ? "0" + sec : sec;
+        date = date < 10 ? "0" + date : date;
+        month = month < 10 ? "0" + month : month;
 
         document.getElementById("hour")
                 .innerHTML = hour;
